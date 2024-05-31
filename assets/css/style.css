@@ -833,6 +833,11 @@ main {
   line-height: 1.6;
 }
 
+@media only screen and (max-width: 800px) {
+  .resumeimage {
+    width: 300px;
+  }
+}
 
 /**
  * skills 
@@ -881,6 +886,7 @@ main {
 
 .filter-list { display: none; }
 
+
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
@@ -898,6 +904,7 @@ main {
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+  display: none;
 }
 
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
